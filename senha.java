@@ -7,11 +7,12 @@ public class senha {
 		System.out.println("Insira a senha: ");
 		int senha = 0;
 		while (senha != 1263) {
-			sc.close();
+			senha = sc.nextInt();
 			if (senha != 1263) {
-				System.out.println("Senha inválida!");
+				System.out.println("Senha inválida! Tente novamente.");
 			}
 		}
+		sc.close();
 		System.out.println("Acesso permitido");
 	}
 
