@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AreaDoCirculo {
+public class AreaCirculo {
 
 	public static void main(String[] args) {
 		double raio;
