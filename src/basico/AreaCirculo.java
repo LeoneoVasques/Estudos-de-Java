@@ -1,4 +1,3 @@
-package utilitarios;
 import java.util.Scanner;
 /*
 Programa: Cálculo da Área de um Círculo
