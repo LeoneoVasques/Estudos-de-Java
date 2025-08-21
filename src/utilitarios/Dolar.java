@@ -5,7 +5,6 @@ Programa: Conversor de Dólar
 Descrição: O programa lê a cotação do dólar e a quantidade em dólares que o usuário deseja comprar.
 Calcula o valor total em reais, adicionando 6% de IOF, e mostra o resultado na tela.
 */
-
 public class Dolar {
     public static void main(String[] args) {
         Locale.setDefault(new Locale("en", "US"));

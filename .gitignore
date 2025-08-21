@@ -1,0 +1,9 @@
+# Pastas do IntelliJ IDEA
+.idea/
+out/
+
+# Arquivos compilados
+*.class
+
+# Outros temporários
+*.log
