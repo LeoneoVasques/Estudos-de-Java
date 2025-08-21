@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*
+Programa: Cálculo do Valor de Peças
+Descrição: Lê os códigos, quantidades e valores de dois produtos fornecidos pelo usuário,
+           calcula o valor total a pagar e exibe o resultado na tela.
+*/
 public class ValorDePecas {
 
 	public static void main(String[] args) {

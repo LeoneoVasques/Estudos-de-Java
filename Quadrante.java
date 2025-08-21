@@ -1,5 +1,10 @@
 import java.util.Scanner;
-
+/*
+Programa: Identificação de Quadrante ou Eixo
+Descrição: Lê coordenadas X e Y fornecidas pelo usuário e determina em qual quadrante
+           do plano cartesiano o ponto se encontra (Q1, Q2, Q3, Q4), ou se está em algum
+           dos eixos (X ou Y) ou na origem.
+*/
 public class Quadrante {
 
 	public static void main(String[] args) {

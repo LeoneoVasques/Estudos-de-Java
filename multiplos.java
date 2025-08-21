@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*
+Programa: Verificação de Múltiplos
+Descrição: Lê dois números inteiros fornecidos pelo usuário e verifica se eles são múltiplos entre si.
+           Exibe uma mensagem indicando se são ou não múltiplos.
+*/
 public class multiplos {
 
 	public static void main(String[] args) {

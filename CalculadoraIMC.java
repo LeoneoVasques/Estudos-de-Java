@@ -1,4 +1,10 @@
 import java.util.Scanner;
+/*
+Programa: Calculadora de IMC
+Descrição: Lê o nome, altura e peso do usuário, calcula o Índice de Massa Corporal (IMC)
+           usando a fórmula IMC = peso / (altura²) e informa em qual faixa de peso a pessoa se encontra,
+           de acordo com os padrões de classificação de IMC.
+*/
 
 public class CalculadoraIMC {
     public static void main(String[] args) {

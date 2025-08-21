@@ -1,6 +1,11 @@
 import java.util.Scanner;
 import java.util.Locale;
-
+/*
+Programa: Cálculo de Média Ponderada
+Descrição: Lê uma quantidade de processos definida pelo usuário. Para cada processo,
+           lê três valores com pesos diferentes (2, 3 e 5), calcula a média ponderada
+           usando a fórmula: média = (a*2 + b*3 + c*5) / (2+3+5) e exibe o resultado.
+*/
 public class media_ponderada
 {
 	public static void main(String[] args) {

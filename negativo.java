@@ -1,6 +1,9 @@
-
 import java.util.Scanner;
-
+/*
+Programa: Verificação de Número Negativo
+Descrição: Lê um número inteiro fornecido pelo usuário e verifica se ele é negativo ou não.
+           Exibe "NEGATIVO" caso seja menor que zero, ou "NAO NEGATIVO" caso contrário.
+*/
 public class negativo {
 
 	public static void main(String[] args) {

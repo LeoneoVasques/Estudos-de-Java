@@ -1,4 +1,9 @@
 import java.util.Scanner;
+/*
+Programa: Cálculo da Área de um Círculo
+Descrição: Lê o valor do raio de um círculo e calcula sua área usando a fórmula
+           área = π * raio². Exibe o resultado na tela com 4 casas decimais.
+*/
 
 public class AreaCirculo {
 

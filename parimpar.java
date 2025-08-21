@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*
+Programa: Verificação de Número Par ou Ímpar
+Descrição: Lê um número inteiro fornecido pelo usuário e verifica se ele é par ou ímpar.
+           Exibe uma mensagem indicando o resultado.
+*/
 public class parimpar {
 
 	public static void main(String[] args) {

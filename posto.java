@@ -1,5 +1,11 @@
 import java.util.Scanner;
-
+/*
+Programa: Posto de Combustível – Contagem de Vendas
+Descrição: Exibe um menu com códigos de combustíveis (Álcool, Gasolina, Diesel) e permite
+           que o usuário registre a escolha de cada cliente. O programa contabiliza a quantidade
+           de cada tipo de combustível escolhido até que o usuário digite o código 4 (Fim),
+           momento em que exibe o total de cada combustível vendido.
+*/
 public class posto {
 
 	public static void main(String[] args) {

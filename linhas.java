@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*
+Programa: Números, Quadrados e Cubos
+Descrição: Lê um número inteiro N fornecido pelo usuário e, para cada número de 1 até N,
+           exibe na tela o número, seu quadrado e seu cubo.
+*/
 public class linhas
 {
     public static void main(String[] args) {

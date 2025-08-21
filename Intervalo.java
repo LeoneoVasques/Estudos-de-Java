@@ -1,6 +1,11 @@
 import java.util.Scanner;
 import java.util.Locale;
-
+/*
+Programa: Verificação de Intervalo
+Descrição: Lê um número fornecido pelo usuário e verifica em qual intervalo ele se encontra:
+           [0,25], (25,50], (50,75], (75,100].
+           Se o número não estiver dentro de nenhum desses intervalos, exibe que está fora do intervalo.
+*/
 public class Intervalo {
 
 	public static void main(String[] args) {

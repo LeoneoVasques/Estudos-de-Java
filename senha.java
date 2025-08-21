@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*
+Programa: Validação de Senha
+Descrição: Solicita que o usuário insira uma senha e continua pedindo até que a senha correta (1263) seja informada.
+           Quando a senha correta é digitada, exibe a mensagem "Acesso permitido".
+*/
 public class senha {
 
 	public static void main(String[] args) {

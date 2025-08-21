@@ -1,6 +1,9 @@
-
 import java.util.Scanner;
-
+/*
+Programa: Soma de Dois Números
+Descrição: Lê dois números inteiros fornecidos pelo usuário, calcula a soma deles
+           e exibe o resultado na tela.
+*/
 public class Soma {
 
 	public static void main(String[] args) {

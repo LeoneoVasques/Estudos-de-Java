@@ -1,4 +1,9 @@
 import java.util.Scanner;
+/*
+Programa: Divisores de um Número Inteiro
+Descrição: Lê um número inteiro fornecido pelo usuário e exibe todos os seus divisores.
+           Um divisor é todo número que divide o número dado sem deixar resto.
+*/
 
 public class divisores {
     public static void main(String[] args) {

@@ -1,5 +1,10 @@
 import java.util.Scanner;
-
+/*
+Programa: Cálculo de Diferença
+Descrição: Lê quatro valores inteiros (a, b, c, d) fornecidos pelo usuário e calcula a diferença
+           entre o produto dos dois primeiros e o produto dos dois últimos, ou seja:
+           diferença = (a * b) - (c * d). Exibe o resultado na tela.
+*/
 public class Diferenca {
 
 	public static void main(String[] args) {

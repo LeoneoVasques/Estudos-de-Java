@@ -1,5 +1,14 @@
 import java.util.Scanner;
-
+/*
+Programa: Cálculo de Imposto de Renda
+Descrição: Lê o valor do salário do usuário e calcula o imposto de renda devido
+           de acordo com faixas progressivas:
+           - Até 2000: isento
+           - De 2000,01 até 3000: 8%
+           - De 3000,01 até 4500: 18%
+           - Acima de 4500: 28%
+           Exibe o valor do imposto ou "Isento" se não houver imposto a pagar.
+*/
 public class Imposto {
 
 	public static void main(String[] args) {

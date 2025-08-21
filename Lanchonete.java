@@ -1,5 +1,10 @@
 import java.util.Scanner;
-
+/*
+Programa: Lanchonete – Cálculo de Pedido
+Descrição: Exibe um cardápio com códigos, especificações e preços de produtos.
+           Lê do usuário o código do produto desejado e a quantidade, calcula o total a pagar
+           e exibe o valor final do pedido.
+*/
 public class Lanchonete {
 
 	public static void main(String[] args) {

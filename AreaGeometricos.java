@@ -1,6 +1,16 @@
 import java.util.Scanner;
 import java.util.Locale;
-
+/*
+Programa: Cálculo de Áreas de Figuras Geométricas
+Descrição: Lê três valores (a, b e c) fornecidos pelo usuário e calcula as áreas
+           de várias figuras geométricas:
+           - Triângulo: (a * c) / 2
+           - Círculo: c² * π
+           - Trapézio: ((a + b) / 2) * c
+           - Quadrado: b²
+           - Retângulo: a * b
+           Exibe cada área na tela com 3 casas decimais.
+*/
 public class AreaGeometricos {
 
 	public static void main(String[] args) {

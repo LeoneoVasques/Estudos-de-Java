@@ -1,5 +1,10 @@
 import java.util.Scanner;
-
+/*
+Programa: Identificação de Quadrante de Coordenadas
+Descrição: Lê coordenadas X e Y fornecidas pelo usuário e determina em qual quadrante
+           do plano cartesiano cada ponto se encontra (1º, 2º, 3º ou 4º quadrante).
+           O programa continua pedindo coordenadas até que o usuário digite X = 0 ou Y = 0.
+*/
 public class coordenadas {
 
 	public static void main(String[] args) {

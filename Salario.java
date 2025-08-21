@@ -1,6 +1,11 @@
 import java.util.Locale;
 import java.util.Scanner;
-
+/*
+Programa: Cálculo de Salário de Funcionário
+Descrição: Lê o número do funcionário, a quantidade de horas trabalhadas e o valor da hora.
+           Calcula o salário do funcionário multiplicando horas trabalhadas pelo valor da hora
+           e exibe o número do funcionário e o salário calculado.
+*/
 public class Salario {
 
 	public static void main(String[] args) {

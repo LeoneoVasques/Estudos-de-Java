@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*
+Programa: Números Ímpares até N
+Descrição: Lê um número inteiro N fornecido pelo usuário e exibe todos os números ímpares
+           de 1 até N.
+*/
 public class imparpar2 {
 
 	public static void main(String[] args) {

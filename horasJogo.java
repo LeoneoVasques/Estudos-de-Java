@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*
+Programa: Duração de um Jogo
+Descrição: Lê o horário inicial e final de um jogo (em horas inteiras) fornecidos pelo usuário
+           e calcula a duração total do jogo em horas. Considera que o jogo pode passar da meia-noite.
+*/
 public class horasJogo {
 
 	public static void main(String[] args) {
