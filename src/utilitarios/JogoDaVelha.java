@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class JogoDaVelha {
     static public int jogador = 1;
     static boolean win  = false;
+    static boolean cheio  = false;
     static char[][] tabuleiro = new char[3][3];
 
     public void setTabuleiro() {
@@ -26,6 +27,7 @@ public class JogoDaVelha {
     }
 
     public void jogada(int x, int y){
+
         int qual_jogador = jogador % 2;
             if (qual_jogador != 0) {
                 if (x == 1 && y == 1) tabuleiro[0][0] = 'X';
@@ -55,9 +57,7 @@ public class JogoDaVelha {
                 if (x == 3 && y == 3) tabuleiro[2][2] = 'O';
                 jogador++;
         }
-        else{
-            System.out.println("jogador invalido");
-        }
+
     }
 
     public static void main(String[] args) {
@@ -65,14 +65,21 @@ public class JogoDaVelha {
         JogoDaVelha jogo = new JogoDaVelha();
         System.out.printf("Bem vindo ao jogo da velha!%n");
         jogo.setTabuleiro();
-        while (!win) {
+        while (!win || !cheio) {
             jogo.showTabuleiro();
+            if (jogador % 2 != 0) {jogador = 1;}
+            if (jogador % 2 == 0) {jogador = 2;}
             System.out.printf("Jogador %d, insira o número da linha: %n", jogador);
             int linha = sc.nextInt();
             System.out.printf("Jogador %d, insira o número da coluna: %n", jogador);
             int coluna = sc.nextInt();
-            jogo.jogada(linha, coluna);
-            jogo.verifywin();
+            if ((coluna != 1 && coluna != 2 && coluna != 3) || (linha != 1 && linha != 2 && linha != 3)){
+                System.out.println("Jogada inválida!");
+            }
+            else {
+                jogo.jogada(linha, coluna);
+                jogo.verifywin();
+            }
         }
             sc.close();
     }
