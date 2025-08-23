@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /*
 Programa: Calculadora de IMC
 Descrição: Lê o nome, altura e peso do usuário, calcula o Índice de Massa Corporal (IMC)
@@ -35,5 +34,6 @@ public class CalculadoraIMC {
         }
         System.out.printf("%s, seu IMC é: %.2f%n", nome, imc);
         System.out.println("Você se encontra em estado de " + resultado);
+        sc.close();
     }
 }

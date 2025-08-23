@@ -21,7 +21,7 @@
             if (win){
                 jogador = jogador - 1; //acerta o jogador que ganhou
             }
-            else if (cheio){
+            if (cheio && !win){
                 System.out.println("Deu Velha!");
             }
         }
@@ -119,6 +119,8 @@
                 else {
                         jogo.jogada(linha, coluna);
                         jogo.verifyWin();
+                        jogo.verifyCheio();
+                        jogo.showTabuleiro();
                 }
             }
                 sc.close();
