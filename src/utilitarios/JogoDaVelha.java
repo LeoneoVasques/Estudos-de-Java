@@ -101,8 +101,8 @@
             JogoDaVelha jogo = new JogoDaVelha();
             System.out.printf("Bem vindo ao jogo da velha!%n");
             jogo.setTabuleiro();
+            jogo.showTabuleiro();
             while (!win && !cheio) {
-                jogo.showTabuleiro();
                 if (jogador % 2 != 0) {jogador = 1;}
                 if (jogador % 2 == 0) {jogador = 2;}
                 System.out.printf("Jogador %d, insira o número da linha: %n", jogador);
